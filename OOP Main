@@ -1,0 +1,28 @@
+package Quiz1;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		House r1 = new House();
+		
+		System.out.print("Type of house: ");
+		String t = sc.next();
+		System.out.print("Quantity: ");
+		int q = sc.nextInt();
+		System.out.print("Location: ");
+		String l = sc.next();
+		
+		r1.setType(t);
+		r1.setQuantity(q);
+		r1.setLocation(l);
+		
+		System.out.println("Type of house: " + r1.getType());
+		System.out.println("Quantity: " + r1.getQuantity());
+		System.out.println("Location: " + r1.getlocation());
+	
+	}
+
+}
