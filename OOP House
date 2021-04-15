@@ -1,0 +1,28 @@
+package Quiz1;
+
+public class House {
+
+	String type, location;
+	int quantity;
+	//setter
+	public void setType(String type) {
+		this.type = type;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	//getter
+	public String getType() {
+		return this.type;
+	}
+	public int getQuantity() {
+		return this.quantity;
+	}
+	public String getlocation() {
+		return this.location;
+	}
+
+}
